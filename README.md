@@ -8,7 +8,7 @@ This server enables LLMs to access Peaka's API endpoints for programmatic intera
 
 ## Requirements
 
-- You'll need a Peaka Partner API key to use this server. Check out the [Peaka Documentation](https://docs.peaka.com/how-to-guides/how-to-manage-partner-api-key#how-to-manage-your-partner-api) for detailed instructions on creating and managing your API key.
+- You'll need a Peaka Partner API key while using endpoints from this server. Check out the [Peaka Documentation](https://docs.peaka.com/how-to-guides/how-to-manage-partner-api-key#how-to-manage-your-partner-api) for detailed instructions on creating and managing your API key.
 
 ## Usage with Claude Desktop
 
