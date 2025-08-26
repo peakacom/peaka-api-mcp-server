@@ -1,6 +1,6 @@
 {
   "name": "@peaka/mcp-server-peaka-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MCP Server Implementation for Peaka API",
   "type": "module",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
   "scripts": {
     "postbuild": "shx chmod +x dist/*.js",
     "start": "node --watch dist/index.js",
-    "build": "tsup src/index.ts --dts --format esm --external xdg-app-paths --external which --shims && shx cp src/api.json dist/api.json",
+    "build": "tsup src/index.ts --dts --format esm --external xdg-app-paths --external which && shx cp src/api.json dist/api.json",
     "check": "tsc --noEmit"
   },
   "repository": {
