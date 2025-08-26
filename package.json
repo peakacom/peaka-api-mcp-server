@@ -1,0 +1,25 @@
+{
+  "name": "peaka-api-mcp",
+  "version": "0.0.1",
+  "description": "MCP Server Implementation for Peaka API",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "api.json"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc && cp src/api.json dist/api.json",
+    "start": "node --watch dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.24",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "fastmcp": "^2.1.4"
+  }
+}
