@@ -20,7 +20,7 @@ This server enables LLMs to access Peaka's API endpoints for programmatic intera
 ```json
 {
   "mcpServers": {
-    "peaka": {
+    "peaka-api": {
       "command": "npx",
       "args": ["-y", "@peaka/mcp-server-peaka-api@latest"]
     }
@@ -40,7 +40,7 @@ This server enables LLMs to access Peaka's API endpoints for programmatic intera
 ```json
 {
   "mcpServers": {
-    "peaka": {
+    "peaka-api": {
       "command": "npx",
       "args": ["-y", "@peaka/mcp-server-peaka-api@latest"]
     }
