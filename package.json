@@ -32,7 +32,7 @@
     "api"
   ],
   "author": "Mevlut Can TUNA",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/peakacom/peaka-api-mcp-server/issues"
   },
