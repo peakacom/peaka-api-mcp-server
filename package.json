@@ -16,7 +16,6 @@
   ],
   "access": "public",
   "scripts": {
-    "postbuild": "shx chmod +x dist/*.js",
     "start": "node --watch dist/index.js",
     "build": "rm -rf dist && tsc && cp src/api.json dist/api.json",
     "check": "tsc --noEmit"
