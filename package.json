@@ -11,13 +11,13 @@
   },
   "files": [
     "dist",
-    "api.json",
     "README.md"
   ],
   "access": "public",
   "scripts": {
+    "postbuild": "shx chmod +x dist/*.js",
     "start": "node --watch dist/index.js",
-    "build": "rm -rf dist && tsc && cp src/api.json dist/api.json",
+    "build": "tsup src/index.ts --dts --format esm --external xdg-app-paths --external which --shims && shx cp src/api.json dist/api.json",
     "check": "tsc --noEmit"
   },
   "repository": {
@@ -38,6 +38,8 @@
   "homepage": "https://github.com/peakacom/peaka-api-mcp-server#readme",
   "devDependencies": {
     "@types/node": "^22.15.24",
+    "shx": "^0.4.0",
+    "tsup": "^8.5.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
