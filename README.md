@@ -6,6 +6,10 @@ Model Context Protocol (MCP) server that provides access to Peaka's API endpoint
 
 This server enables LLMs to access Peaka's API endpoints for programmatic interaction with your data platform.
 
+## Requirements
+
+- You'll need a Peaka Partner API key to use this server. Check out the [Peaka Documentation](https://docs.peaka.com/how-to-guides/how-to-manage-partner-api-key#how-to-manage-your-partner-api) for detailed instructions on creating and managing your API key.
+
 ## Usage with Claude Desktop
 
 - Edit the configuration file `config.json`:
@@ -23,8 +27,6 @@ This server enables LLMs to access Peaka's API endpoints for programmatic intera
   }
 }
 ```
-
-Change the `{PEAKA_API_KEY}` with your project API Key. Check out Peaka Documentation for creating your API Key and follow detailed instructions by clicking [here](https://docs.peaka.com/how-to-guides/how-to-manage-partner-api-key#how-to-manage-your-partner-api-).
 
 - Restart Claude Desktop
 
