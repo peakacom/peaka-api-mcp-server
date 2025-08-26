@@ -1,4 +1,4 @@
-# peaka-mcp-api-server
+# peaka-api-mcp-server
 
 Model Context Protocol (MCP) is a [new, standardized protocol](https://modelcontextprotocol.io/introduction) for managing context between large language models (LLMs) and external systems.
 
@@ -22,7 +22,7 @@ This server enables LLMs to access Peaka's API endpoints for programmatic intera
   "mcpServers": {
     "peaka": {
       "command": "npx",
-      "args": ["-y", "@peaka/mcp-endpoint-server-peaka@latest"]
+      "args": ["-y", "@peaka/mcp-server-peaka-api@latest"]
     }
   }
 }
@@ -42,7 +42,7 @@ This server enables LLMs to access Peaka's API endpoints for programmatic intera
   "mcpServers": {
     "peaka": {
       "command": "npx",
-      "args": ["-y", "@peaka/mcp-endpoint-server-peaka@latest"]
+      "args": ["-y", "@peaka/mcp-server-peaka-api@latest"]
     }
   }
 }
